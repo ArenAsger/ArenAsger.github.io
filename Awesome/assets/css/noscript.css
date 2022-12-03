@@ -1,0 +1,21 @@
+body {
+  height: 100%;
+  background-color: #000;
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+  margin-top: 93px;
+	/*background: linear-gradient(185deg, rgb(26, 26, 165), rgb(0, 0, 0)) fixed;*/
+	background: linear-gradient(185deg, rgb(0, 0, 0), rgb(0, 0, 0)) fixed;
+  cursor: default;
+}
+noscript#noScript div {
+	color: white;
+	font-size: 18px;
+	font-family: var(--fontFamily);
+	display: grid;
+	justify-items: center;
+	justify-content: center;
+	align-items: center;
+  align-content: center;
+}
